@@ -3,23 +3,15 @@ const siteMetadata = {
   title: 'Lena Forti',
   author: 'Lena Forti',
   headerTitle: 'Lena Forti',
-  description: 'Portfolio site',
+  description: 'Web Developer',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/l.png',
-  socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
-  // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  siteUrl: 'https://lenaforti.com',
+  siteRepo: 'https://github.com/lenaf/portfolio',
+  siteLogo: '/static/images/L.png',
+  email: 'lforti41@gmail.com',
+  github: 'https://github.com/lenaf',
+  linkedin: 'https://www.linkedin.com/in/lena-forti/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -43,11 +35,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
-  },
+  // newsletter: {
+  //   // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
+  //   // Please add your .env file and modify it according to your selection
+  //   provider: 'buttondown',
+  // },
   // comments: {
   //   // If you want to use an analytics provider you have to add it to the
   //   // content security policy in the `next.config.js` file.
