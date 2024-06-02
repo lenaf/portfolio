@@ -8,7 +8,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://lenaforti.com',
   siteRepo: 'https://github.com/lenaf/portfolio',
-  siteLogo: '/static/images/L.png',
+  siteLogo: '/static/images/l.png',
   email: 'lforti41@gmail.com',
   github: 'https://github.com/lenaf',
   linkedin: 'https://www.linkedin.com/in/lena-forti/',
