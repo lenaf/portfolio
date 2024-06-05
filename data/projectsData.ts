@@ -11,7 +11,7 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'Loondog Ceramics E-Commerce Site',
+    title: 'Ceramics E-Commerce Website',
     description: `UX Design, UI Design, Developer, Ceramic Artist`,
     stack: `Hydrogen, Shopify`,
     desktopImgSrc: '/static/images/projects/loondog-desktop.png',
@@ -19,7 +19,7 @@ const projectsData: Project[] = [
     href: 'https://www.loondog.com',
   },
   {
-    title: 'Mariposa Gallery Exhibit Static Site',
+    title: 'Art Gallery Static Website',
     description: `UX Design, Developer`,
     descriptionSecondLine: `Built and designed.`,
     stack: `Gatsby, Tailwind`,
@@ -29,7 +29,7 @@ const projectsData: Project[] = [
     github: '',
   },
   {
-    title: 'Interpretting Business Marketing Static Site',
+    title: 'Marketing Static Website',
     description: `UX Design, UI Design, Developer`,
     stack: `Gatsby, Tailwind`,
     desktopImgSrc: '/static/images/projects/interpretelle-desktop.png',
@@ -37,7 +37,7 @@ const projectsData: Project[] = [
     href: 'https://www.interpretelle.com',
   },
   {
-    title: 'Hulu Web Browsing',
+    title: 'Hulu Website - Browsing Experience',
     description: `Developer`,
     descriptionSecondLine: `Built and designed.`,
     stack: `Gatsby, Tailwind`,
@@ -45,7 +45,7 @@ const projectsData: Project[] = [
     href: 'https://www.hulu.com',
   },
   {
-    title: 'Kangarootime',
+    title: 'Day Care Management Web App',
     description: `UX Design, Developer`,
     descriptionSecondLine: `Built and designed.`,
     stack: `Gatsby, Tailwind`,
