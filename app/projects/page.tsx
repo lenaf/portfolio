@@ -23,7 +23,8 @@ export default function Projects() {
                 key={d.title}
                 title={d.title}
                 description={d.description}
-                imgSrc={d.imgSrc}
+                desktopImgSrc={d.desktopImgSrc}
+                mobileImgSrc={d.mobileImgSrc}
                 href={d.href}
               />
             ))}

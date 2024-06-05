@@ -1,26 +1,40 @@
 interface Project {
-  title: string,
-  description: string,
-  href?: string,
-  imgSrc?: string,
+  title: string
+  description: string
+  descriptionSecondLine?: string
+  stack: string
+  href?: string
+  desktopImgSrc?: string
+  mobileImgSrc?: string
+  github?: string
 }
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Mariposa Gallery Exhibit Static Site',
+    description: `UX Design, Developer`,
+    descriptionSecondLine: `Built and designed.`,
+    stack: `Gatsby, Tailwind`,
+    desktopImgSrc: '/static/images/projects/mariposa-deskop.png',
+    mobileImgSrc: '/static/images/projects/mariposa-mobile.png',
+    href: 'https://www.mariposa.gallery',
+    github: '',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Loondog Ceramics E-Commerce Site',
+    description: `UX Design, UI Design, Developer, Ceramic Artist`,
+    stack: `Hydrogen, Shopify`,
+    desktopImgSrc: '/static/images/projects/loondog-deskop.png',
+    mobileImgSrc: '/static/images/projects/loondog-mobile.png',
+    href: 'https://www.loondog.com',
+  },
+  {
+    title: 'Interpretting Business Marketing Static Site',
+    description: `UX Design, UI Design, Developer`,
+    stack: `Gatsby, Tailwind`,
+    desktopImgSrc: '/static/images/projects/interpretelle-deskop.png',
+    mobileImgSrc: '/static/images/projects/interpretelle-mobile.png',
+    href: 'https://www.interpretelle.com',
   },
 ]
 
