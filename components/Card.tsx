@@ -13,7 +13,7 @@ const Card = ({ title, description, desktopImgSrc, mobileImgSrc, href }) => (
           <Image
             alt={title}
             src={mobileImgSrc}
-            className="contain-center absolute left-48 top-10 object-cover md:h-48 lg:h-64"
+            className="contain-center absolute left-48 top-10 h-48 object-cover lg:h-64"
             width={200}
             height={306}
           />
