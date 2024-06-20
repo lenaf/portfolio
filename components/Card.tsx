@@ -3,11 +3,7 @@ import Link from './Link'
 
 const Card = ({ title, description, desktopImgSrc, mobileImgSrc, href }) => (
   <div className="md max-w-[544px] p-4 md:w-1/2">
-    <div
-      className={`${
-        desktopImgSrc && 'h-full'
-      } relative overflow-hidden rounded-md border-2 border-gray-200 border-opacity-60 dark:border-gray-700`}
-    >
+    <div className={`${desktopImgSrc && 'h-full'} relative overflow-hidden rounded-md`}>
       {mobileImgSrc && (
         <Link href={href} aria-label={`Link to ${title}`}>
           <Image
