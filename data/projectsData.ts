@@ -24,7 +24,7 @@ const projectsData: Project[] = [
     descriptionSecondLine: `Built and designed.`,
     stack: `Gatsby, Tailwind`,
     desktopImgSrc: '/static/images/projects/kangarootime-desktop.png',
-    href: 'https://www.hulu.com',
+    href: 'https://k2.kangarootime.com/',
   },
   {
     title: 'Mariposa Gallery',
@@ -34,7 +34,7 @@ const projectsData: Project[] = [
     desktopImgSrc: '/static/images/projects/mariposa-desktop.png',
     mobileImgSrc: '/static/images/projects/mariposa-mobile.png',
     href: 'https://www.mariposa.gallery',
-    github: '',
+    github: 'https://github.com/lenaf/mariposa',
   },
   {
     title: 'Loondog Ceramics',
@@ -43,6 +43,7 @@ const projectsData: Project[] = [
     desktopImgSrc: '/static/images/projects/loondog-desktop.png',
     mobileImgSrc: '/static/images/projects/loondog-mobile.png',
     href: 'https://www.loondog.com',
+    github: 'https://github.com/lenaf/hydrogen-loondog',
   },
   {
     title: 'Interpretelle',
@@ -51,6 +52,7 @@ const projectsData: Project[] = [
     desktopImgSrc: '/static/images/projects/interpretelle-desktop.png',
     mobileImgSrc: '/static/images/projects/interpretelle-mobile.png',
     href: 'https://www.interpretelle.com',
+    github: 'https://github.com/lenaf/interpretelle',
   },
 ]
 
