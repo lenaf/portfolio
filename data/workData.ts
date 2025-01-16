@@ -1,4 +1,4 @@
-interface Project {
+interface Work {
   title: string
   description: string
   descriptionSecondLine?: string
@@ -9,7 +9,7 @@ interface Project {
   github?: string
 }
 
-const projectsData: Project[] = [
+const workData: Work[] = [
   {
     title: 'Hulu',
     description: `Developer`,
@@ -56,4 +56,4 @@ const projectsData: Project[] = [
   },
 ]
 
-export default projectsData
+export default workData
