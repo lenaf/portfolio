@@ -90,16 +90,6 @@ const ThemeSwitch = () => {
                     </button>
                   </Menu.Item>
                 </RadioGroup.Option>
-                <RadioGroup.Option value="system">
-                  <Menu.Item>
-                    <button className="group flex w-full items-center rounded-md px-2 py-2 text-sm">
-                      <div className="mr-2">
-                        <Monitor />
-                      </div>
-                      System
-                    </button>
-                  </Menu.Item>
-                </RadioGroup.Option>
               </div>
             </RadioGroup>
           </Menu.Items>

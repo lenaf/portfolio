@@ -52,9 +52,9 @@ input:-webkit-autofill:focus {
 
 .animate-gradient-fast {
   background-size: 300%;
-  -webkit-animation: animatedgradient 3s ease infinite alternate;
-  -moz-animation: animatedgradient 3s ease infinite alternate;
-  animation: animatedgradient 3s ease infinite alternate;
+  -webkit-animation: animatedgradient 2s ease infinite alternate;
+  -moz-animation: animatedgradient 2s ease infinite alternate;
+  animation: animatedgradient 2s ease infinite alternate;
 }
 
 .animate-gradient-slow {
