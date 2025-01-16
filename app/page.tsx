@@ -11,7 +11,8 @@ export default async function Page() {
           </h1>
           <div className="flex">
             <p className="leading-18 text-6xl text-gray-900 dark:text-gray-400">
-              I'm a web developer and freelance UI/UX designer.
+              {/* I'm a web developer and freelance UI/UX designer. */}I make websites that run fast
+              and feel effortless to use.
               {/* I am a full-stack web developer with an eye for UI/UX design.
               I make websites that run fast and feel effortless and fun to use.
               Check out some of my work. */}
