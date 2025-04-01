@@ -51,7 +51,7 @@ const workData: Work[] = [
     stack: `Gatsby, Tailwind`,
     desktopImgSrc: '/static/images/projects/interpretelle-desktop.png',
     mobileImgSrc: '/static/images/projects/interpretelle-mobile.png',
-    href: 'https://www.interpretelle.com',
+    href: 'https://interpretelle-git-main-lenaforti.vercel.app/',
     github: 'https://github.com/lenaf/interpretelle',
   },
 ]
