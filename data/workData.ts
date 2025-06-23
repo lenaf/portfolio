@@ -37,6 +37,16 @@ const workData: Work[] = [
     github: 'https://github.com/lenaf/mariposa',
   },
   {
+    title: 'She Runs the World Film',
+    description: `UX Design, UI Design, Developer`,
+    descriptionSecondLine: `Built and designed.`,
+    stack: `Next.js, Tailwind`,
+    desktopImgSrc: '/static/images/projects/af-desktop.png',
+    mobileImgSrc: '/static/images/projects/af-mobile.png',
+    href: 'https://www.sherunstheworldfilm.com/',
+    github: 'https://github.com/lenaf/allyson-felix',
+  },
+  {
     title: 'Loondog Ceramics',
     description: `UX Design, UI Design, Developer, Ceramic Artist`,
     stack: `Hydrogen, Shopify`,
@@ -53,6 +63,15 @@ const workData: Work[] = [
     mobileImgSrc: '/static/images/projects/interpretelle-mobile.png',
     href: 'https://interpretelle-git-main-lenaforti.vercel.app/',
     github: 'https://github.com/lenaf/interpretelle',
+  },
+  {
+    title: 'Interior Design Portfolio',
+    description: `Developer`,
+    stack: `Next.js, Tailwind`,
+    desktopImgSrc: '/static/images/projects/nr-desktop.png',
+    mobileImgSrc: '/static/images/projects/nr-mobile.png',
+    href: 'https://www.njcrstudio.com/home',
+    github: 'https://github.com/lenaf/njcr-studio',
   },
 ]
 

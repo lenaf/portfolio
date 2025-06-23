@@ -9,7 +9,7 @@ const Card = ({ title, description, desktopImgSrc, mobileImgSrc, href }) => (
           <Image
             alt={title}
             src={mobileImgSrc}
-            className="contain-center absolute left-48 top-10 h-48 object-cover lg:h-64"
+            className="contain-center absolute -right-8 top-4 h-2/3 object-cover"
             width={200}
             height={306}
           />
@@ -19,18 +19,18 @@ const Card = ({ title, description, desktopImgSrc, mobileImgSrc, href }) => (
         <Image
           alt={title}
           src={desktopImgSrc}
-          className="object-contain object-center md:h-48 lg:h-64"
+          className="object-contain object-left md:h-48 lg:h-64"
           width={544}
           height={306}
         />
       </Link>
-      <div className="p-6">
-        <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">
+      <div className="py-6">
+        <h2 className="mb-1 text-2xl font-bold leading-8 tracking-tight">
           <Link href={href} aria-label={`Link to ${title}`}>
             {title}
           </Link>
         </h2>
-        <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
+        <p className="prose mb-1 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
         {href && (
           <Link
             href={href}
