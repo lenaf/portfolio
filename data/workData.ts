@@ -48,7 +48,7 @@ const workData: Work[] = [
   },
   {
     title: 'Loondog Ceramics',
-    description: `UX Design, UI Design, Developer, Ceramic Artist`,
+    description: `UX Design, UI Design, Developer, Ceramic Artist (currently under construction)`,
     stack: `Hydrogen, Shopify`,
     desktopImgSrc: '/static/images/projects/loondog-desktop.png',
     mobileImgSrc: '/static/images/projects/loondog-mobile.png',
